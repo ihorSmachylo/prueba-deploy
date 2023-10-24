@@ -1,0 +1,5 @@
+#alumnosContainer{
+    display: flex;
+    gap:2em;
+    border:1px solid red;
+}

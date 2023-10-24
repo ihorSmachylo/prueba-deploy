@@ -5,16 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="indes.css">
+    <style>
+        .alumno {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        .card {
+            margin-right: 10px;
+        }
+
+        .fin {
+            border-left: 1px solid #ccc;
+            padding-left: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Ejemplo Alumnos</h1>
-    <div id="alumnosContainer"></div> 
+    <div id="alumnosContainer"></div>
     <img src="" alt="" srcset="">
     <script>
         fetch("alumnos.json")
             .then(response => {
                 if (response.ok) {
-                    console.log(response.json)
                     return response.json();
                 } else {
                     throw new Error(response.status);
@@ -24,26 +41,37 @@
                 const alumnos = data.alumnos;
                 const alumnosContainer = document.getElementById("alumnosContainer");
 
-
                 alumnos.forEach(alumno => {
                     const alumnoDiv = document.createElement("div");
-                    alumnoDiv.classList.add("alumno"); 
+                    alumnoDiv.classList.add("alumno");
 
                     alumnoDiv.innerHTML = `
                         <h2>${alumno.Nombre}</h2>
                         <p>Email: ${alumno.email}</p>
                         <p>GitHub: <a href="${alumno.github}" target="_blank">${alumno.github}</a></p>
                         <p>LinkedIn: <a href="${alumno.linked}" target="_blank">${alumno.linked}</a></p>
-                        <p>descripcion:<p/>
-                        <p>HTML:${alumno.inicio.html}</p>
-                        <p>CSS:${alumno.inicio.css}</p>
-                        <p>JS:${alumno.inicio.js}</p>
-                        <p>VUE:${alumno.inicio.vue}</p>
-                        <p>SQL:${alumno.inicio.SQL}</p>
-                        <p>API:${alumno.inicio.API}</p>
-                        <p>NODE:${alumno.inicio["node.js"]}</p>
-                        <p>Express:${alumno.inicio.express}</p>
-                        
+                        <div class="card">
+                            <p>Descripción:</p>
+                            <p>HTML: ${alumno.inicio.html}</p>
+                            <p>CSS: ${alumno.inicio.css}</p>
+                            <p>JS: ${alumno.inicio.js}</p>
+                            <p>VUE: ${alumno.inicio.vue}</p>
+                            <p>SQL: ${alumno.inicio.SQL}</p>
+                            <p>API: ${alumno.inicio.API}</p>
+                            <p>NODE: ${alumno.inicio["node.js"]}</p>
+                            <p>Express: ${alumno.inicio.express}</p>
+                        </div>
+                        <div class="fin">
+                            <p>Fin</p>
+                            <p>HTML: ${alumno.fin.html}</p>
+                            <p>CSS: ${alumno.fin.css}</p>
+                            <p>JS: ${alumno.fin.js}</p>
+                            <p>VUE: ${alumno.fin.vue}</p>
+                            <p>SQL: ${alumno.fin.SQL}</p>
+                            <p>API: ${alumno.fin.API}</p>
+                            <p>NODE: ${alumno.fin["node.js"]}</p>
+                            <p>Express: ${alumno.fin.express}</p>
+                        </div>
                     `;
                     alumnosContainer.appendChild(alumnoDiv);
                 });

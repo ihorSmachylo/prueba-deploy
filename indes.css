@@ -1,5 +1,23 @@
 #alumnosContainer{
-    display: flex;
+
     gap:2em;
     border:1px solid red;
+}
+
+.alumno {
+    display: flex;
+    flex-direction:column;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card {
+    margin-right: 10px;
+    
+}
+
+.fin {
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
 }

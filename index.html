@@ -5,24 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="indes.css">
-    <style>
-        .alumno {
-            display: flex;
-            flex-direction: row;
-            border: 1px solid #ccc;
-            margin: 10px;
-            padding: 10px;
-        }
-        
-        .card {
-            margin-right: 10px;
-        }
 
-        .fin {
-            border-left: 1px solid #ccc;
-            padding-left: 10px;
-        }
-    </style>
 </head>
 <body>
     <h1>Ejemplo Alumnos</h1>
@@ -51,6 +34,7 @@
                         <p>GitHub: <a href="${alumno.github}" target="_blank">${alumno.github}</a></p>
                         <p>LinkedIn: <a href="${alumno.linked}" target="_blank">${alumno.linked}</a></p>
                         <div class="card">
+                        <div class="description">
                             <p>Descripción:</p>
                             <p>HTML: ${alumno.inicio.html}</p>
                             <p>CSS: ${alumno.inicio.css}</p>
@@ -60,6 +44,7 @@
                             <p>API: ${alumno.inicio.API}</p>
                             <p>NODE: ${alumno.inicio["node.js"]}</p>
                             <p>Express: ${alumno.inicio.express}</p>
+                        </div>
                         </div>
                         <div class="fin">
                             <p>Fin</p>

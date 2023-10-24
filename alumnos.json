@@ -156,14 +156,14 @@
     "express" : 1
     },
     "fin" : {
-    "html" : 1,
-    "css" : 1,
-    "JS" : 0,
+    "html" : 4,
+    "css" : 3,
+    "JS" : 3,
     "VUE" : 3,
     "SQL" : 2,
-    "API" : 2,
-    "node.js" : 0,
-    "express" : 0
+    "API" : 4,
+    "node.js" : 2,
+    "express" : 2
     
     
     }

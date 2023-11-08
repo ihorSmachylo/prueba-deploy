@@ -49,4 +49,4 @@ Copia y pega el código HTML y JavaScript en tu archivo HTML.
 Notas adicionales
 Asegúrate de que tu servidor web esté configurado correctamente para servir el archivo JSON.
 Personaliza el formato y estilo del HTML y CSS según tus necesidades.
-Este README proporciona una visión general del código HTML y JavaScript para mostrar datos de alumnos en una página web. Puedes adaptar este código a tu proyecto y personalizarlo según tus requisitos.
+Este README proporciona una visión general del código HTML y JavaScript para mostrar datos de alumnos en una página web. Puedes adaptar este código a tu proyecto y personalizarlo según tus requisitos..

@@ -8,7 +8,7 @@
 
 </head>
 <body>
-    <h1>Ejemplo Alumnos</h1>
+    <h1>Alumnos Ihor smachylo MF0493</h1>
     <div id="alumnosContainer"></div>
     <img src="" alt="" srcset="">
     <script>
@@ -34,8 +34,8 @@
                         <p>GitHub: <a href="${alumno.github}" target="_blank">${alumno.github}</a></p>
                         <p>LinkedIn: <a href="${alumno.linked}" target="_blank">${alumno.linked}</a></p>
                         <div class="card">
-                        <div class="description">
-                            <p>Descripción:</p>
+                        <div class="inicio">
+                            <p>Inicio:</p>
                             <p>HTML: ${alumno.inicio.html}</p>
                             <p>CSS: ${alumno.inicio.css}</p>
                             <p>JS: ${alumno.inicio["JS"]}</p>
@@ -45,7 +45,7 @@
                             <p>NODE: ${alumno.inicio["node.js"]}</p>
                             <p>Express: ${alumno.inicio.express}</p>
                         </div>
-                        </div>
+                        
                         <div class="fin">
                             <p>Fin</p>
                             <p>HTML: ${alumno.fin.html}</p>
@@ -56,6 +56,7 @@
                             <p>API: ${alumno.fin.API}</p>
                             <p>NODE: ${alumno.fin["node.js"]}</p>
                             <p>Express: ${alumno.fin.express}</p>
+                        </div>
                         </div>
                     `;
                     alumnosContainer.appendChild(alumnoDiv);

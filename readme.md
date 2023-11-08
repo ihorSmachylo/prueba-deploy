@@ -28,7 +28,7 @@ El código HTML y JavaScript tiene la siguiente funcionalidad:
 2.Comprueba si la respuesta de la solicitud HTTP fue exitosa.
 3.Procesa los datos JSON y muestra la información de los alumnos en la página web.
 
-###Explicación del JavaScript
+### Explicación del JavaScript
 
 El bloque de script JavaScript se encarga de cargar y mostrar los datos de los alumnos. Aquí están los pasos clave:
 
@@ -39,7 +39,7 @@ El bloque de script JavaScript se encarga de cargar y mostrar los datos de los a
 5.Maneja errores en caso de problemas durante la carga de datos.
 
 
-###Uso
+### Uso
 
 Para utilizar este código en tu proyecto:
 

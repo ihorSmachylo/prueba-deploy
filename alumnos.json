@@ -7,11 +7,13 @@
     {"Nombre":"Alberto Mozo",
         "email" : "albertomozodocente@gmail.com",
         "linked" : "https://www.linkedin.com/in/alberto-mozo-avellaned-80615713/",
-        "github" : "https://github.com/albertomozo",
+        "github" : "albertomozo",
         "url" : "http://albertomozo.infinityfreeapp.com/"
+       
     
     },
 "alumnos" : [
+
 
 {
     "Nombre":"Francisco",
@@ -48,7 +50,7 @@
     "Nombre":"Daniel Garcia Rosell",
     "email" : "tecnollagos@gmail.com",
     "linked" : "",
-    "github" : "https://github.com/tecnollagos",
+    "github" : "tecnollagos",
     "url" : "",
     "imagen" : "",
     "descripcion" : "",
@@ -79,7 +81,7 @@
     "Nombre":"estel",
     "email" : "Alumno8@gmail.com",
     "linked" : "https://www.linkedin.com/in/estel-cunill-25809411a/",
-    "github" : "https://github.com/estelcm",
+    "github" : "estelcm",
     "url" : "",
     "imagen" : "alumno1.png",
     "descripcion" : "Descripción de vuestra web",
@@ -110,7 +112,7 @@
     "Nombre":"Sílvia",
     "email" : "silviamassana@gmail.com",
     "linked" : "https://www.linkedin.com/in/silvia-massana",
-    "github" : "https://github.com/vionamas",
+    "github" : "vionamas",
     "url" : "https://www.silviamassana.com/",
     "imagen" : "alumno1.png",
     "descripcion" : "Web portfolio de diseño gráfico y fotografía",
@@ -141,7 +143,7 @@
     "Nombre":"Ihor Smachylo",
     "email" : "igoor.smachyloo@gmail.com",
     "linked" : "https://www.linkedin.com/in/ihor-smachylo-23a44120b/",
-    "github" : "https://github.com/ihorSmachylo",
+    "github" : "ihorSmachylo",
     "url" : "http://infinityfreeapp.com/",
     "imagen" : "alumno1.png",
     "descripcion" : "Descripción de vuestra web",
@@ -156,14 +158,14 @@
     "express" : 1
     },
     "fin" : {
-    "html" : 4,
-    "css" : 3,
-    "JS" : 3,
+    "html" : 1,
+    "css" : 1,
+    "JS" : 0,
     "VUE" : 3,
     "SQL" : 2,
-    "API" : 4,
-    "node.js" : 2,
-    "express" : 2
+    "API" : 2,
+    "node.js" : 0,
+    "express" : 0
     
     
     }
@@ -172,7 +174,7 @@
         "Nombre":"Toni López",
         "email" : "tonidevelopez@gmail.com",
         "linked" : "https://www.linkedin.com/in/tonidevelopez/",
-        "github" : "https://github.com/tonidevelopez",
+        "github" : "tonidevelopez",
         "url" : "",
         "imagen" : "",
         "descripcion" : "",
@@ -203,7 +205,7 @@
         "Nombre":"Stephanie Céspedes",
         "email" : "lindacespedesg@gmail.com",
         "linked" : "https://www.linkedin.com/in/stephanie-c%C3%A9spedes-40473328b",
-        "github" : "https://github.com/tephyxp/",
+        "github" : "tephyxp/",
         "url" : "http://stephanie/infinityfreeapp.com/",
         "imagen" : "Steph.jpg",
         "descripcion" : "Descripción de vuestra web",
@@ -230,6 +232,72 @@
         
         
         }
+    },
+    {
+       
+    
+        "Nombre":"Raquel Rivas Castizo",
+        "email" : "raquelrivascas@gmail.com",        
+        "linked" : "https://www.linkedin.com/in/raquel-rivas-191133188",
+        "github" : "rarivka",
+        "url" :" ",
+        "imagen" : "",
+        "descripcion" : "es un proyecto",
+        "inicio" : {
+        "html" : 3,
+        "css" : 2,
+        "JS" : 0,
+        "VUE" : 0,
+        "SQL" : 3,
+        "API" : 1,
+        "node.js" : 0,
+        "express" : 0
+        },
+        "fin" : {
+        "html" : 3,
+        "css" : 2,
+        "JS" : 0,
+        "VUE" : 0,
+        "SQL" : 3,
+        "API" : 0,
+        "node.js" : 0,
+        "express" : 0
+        
+        
+        }
+    },
+    {
+        "Nombre":"lidia angelica chaves ozorio",
+        "email" : "lidanchaves@gmail.com",        
+        "linked" : "https://www.linkedin.com/",
+        "github" : "https://lidiachaves.github.com",
+        "url" : " ",
+        "imagen" : "",
+        "descripcion" : "es un proyecto",
+        "inicio" : {
+        "html" : 1,
+        "css" : 1,
+        "JS" : 1,
+        "VUE" : 1,
+        "SQL" : 1,
+        "API" : 1,
+        "node.js" : 1,
+        "express" : 1
+        },
+        "fin" : {
+        "html" : 4,
+        "css" : 4,
+        "JS" : 4,
+        "VUE" : 3,
+        "SQL" : 2,
+        "API" : 2,
+        "node.js" : 0,
+        "express" : 0
+        
+        
+       }
     }
+
+   
 ]
 }

@@ -9,6 +9,9 @@ Es un single page aplication muy simple de los alumnos del modulo de MF0493 de m
    ```bash
    git clone https://github.com/ihorSmachylo/prueba-deploy.git
    ```
+    ```bash
+   cd prueba-deploy
+   ```
 
 
 # Visualizacion  
